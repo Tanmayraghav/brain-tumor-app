@@ -1,0 +1,29 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# PyTorch model weights (large — consider Git LFS)
+# model/brain_tumor_model.pt   ← comment this out if you WANT to commit the model
+
+# Dataset (do not commit images to version control)
+dataset/tumor/*
+dataset/no_tumor/*
+!dataset/tumor/.gitkeep
+!dataset/no_tumor/.gitkeep
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
