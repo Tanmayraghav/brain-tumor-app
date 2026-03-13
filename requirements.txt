@@ -1,7 +1,7 @@
 # ── Upgrade pip first ──
 --upgrade pip
 
-# ── Deep Learning ── (CPU-only PyTorch)
+# ── Deep Learning (CPU-only PyTorch) ──
 torch==2.10.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision==0.15.2+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 torchaudio==2.0.2+cpu --extra-index-url https://download.pytorch.org/whl/cpu
