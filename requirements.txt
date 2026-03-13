@@ -2,8 +2,9 @@
 # Install with:  pip install -r requirements.txt
 
 # ── Deep Learning ──────────────────────────────────────────
-torch==2.2.2            # PyTorch (CPU build; no CUDA required)
-torchvision==0.17.2     # Dataset utilities and pretrained models
+torch==2.10.0
+torchvision==0.15.2  # if you use torchvision
+torchaudio==2.0.2    # if needed
 
 # ── Image Processing ───────────────────────────────────────
 Pillow==10.3.0          # PIL image I/O
